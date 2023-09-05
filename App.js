@@ -144,16 +144,7 @@ export default function App() {
         <Text style={styles.movieCasting}>Top Billed Cast</Text>
 
         <View>
-          <ScrollView
-            contentContainerStyle={[
-              styles.flexRowStartStartWrap,
-              styles.width100percent,
-              styles.wrapper,
-            ]}
-            horizontal
-            pagingEnabled
-            showsHorizontalScrollIndicator={false}
-          >
+          <ScrollView horizontal>
             <Image
               style={styles.imgActor}
               source={require("./assets/matthew.jpg")}
